@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int factorial(int num)
+long long factorial(int num)
 {
-    int factorial = 1;
+    long long factorial = 1;
     if(num == 0 || num == 1)
         return factorial;
     
